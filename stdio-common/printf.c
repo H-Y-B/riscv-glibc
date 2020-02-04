@@ -24,7 +24,7 @@
 /* Write formatted output to stdout from the format string FORMAT.  */
 /* VARARGS1 */
 int
-__printf (const char *format, ...)
+__printf (const char *format, ...)      
 {
   va_list arg;
   int done;
@@ -40,3 +40,9 @@ __printf (const char *format, ...)
 ldbl_strong_alias (__printf, printf);
 /* This is for libg++.  */
 ldbl_strong_alias (__printf, _IO_printf);
+
+
+
+/*hyb：
+      printf具体实现
+*/
