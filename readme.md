@@ -7,7 +7,9 @@ C语言的库函数进行归纳整理
 - libc
 
   Linux 下的 ANSI C 函数库
+- newlib
 
+  newlib是一个面向嵌入式系统的c运行库。https://github.com/riscv/riscv-newlib
 - **glibc （The GNU C Library ）**
 
   Linux 下的 GUN C 函数库 
